@@ -1,9 +1,3 @@
-https://api.telegram.org/bot1292193503:AAF-mJUiswCZogTEV3_RF_LyHoA_N2OGpc0/sendMessage?chat_id=308081725&text=Hello&reply_markup={"inline_keyboard":[[{"text":"\ud83d\udcdd \u0417\u0430\u043a\u0430\u0437\u044b","callback_data":"\/orders"},{"text":"\ud83d\udcca \u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430","callback_data":"\/stats"},{"text":"\ud83d\udcb0 \u0411\u0430\u043b\u0430\u043d\u0441","callback_data":"\/balance"}],[{"text":"\ud83d\udcb0 \u0411\u0430\u043b\u0430\u043d\u0441","callback_data":"\/balance"},{"text":"\ud83d\udccb \u0421\u0447\u0435\u0442\u0430","callback_data":"\/bills"}],[{"text":"\u2708 \u0417\u0430\u043a\u0430\u0437\u044b","callback_data":"\/orders"}]],"resize_keyboard":true,"one_time_keyboard":true}
-
-https://api.telegram.org/bot1292193503:AAF-mJUiswCZogTEV3_RF_LyHoA_N2OGpc0/getUpdates
-
-{"inline_keyboard":[[{"text":"work plz","callback_data":"\/plz"},{"text":"work2 plz","callback_data":"\/2plz"}]]}
-
 {
     "ok": true,
     "result": [
