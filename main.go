@@ -23,7 +23,7 @@ import (
 )
 
 const telegramBaseUrl = "https://api.telegram.org/bot"
-const telegramToken = "1292193503:AAF-mJUiswCZogTEV3_RF_LyHoA_N2OGpc0"
+const telegramToken = "!!!telegram-token!!!"
 const methodGetMe = "getMe"
 const methodGetUpdates = "getUpdates"
 const methodSendMessage = "sendMessage"
