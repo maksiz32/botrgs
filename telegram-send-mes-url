@@ -1,0 +1,178 @@
+https://api.telegram.org/bot1292193503:AAF-mJUiswCZogTEV3_RF_LyHoA_N2OGpc0/sendMessage?chat_id=308081725&text=Hello&reply_markup={"inline_keyboard":[[{"text":"\ud83d\udcdd \u0417\u0430\u043a\u0430\u0437\u044b","callback_data":"\/orders"},{"text":"\ud83d\udcca \u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430","callback_data":"\/stats"},{"text":"\ud83d\udcb0 \u0411\u0430\u043b\u0430\u043d\u0441","callback_data":"\/balance"}],[{"text":"\ud83d\udcb0 \u0411\u0430\u043b\u0430\u043d\u0441","callback_data":"\/balance"},{"text":"\ud83d\udccb \u0421\u0447\u0435\u0442\u0430","callback_data":"\/bills"}],[{"text":"\u2708 \u0417\u0430\u043a\u0430\u0437\u044b","callback_data":"\/orders"}]],"resize_keyboard":true,"one_time_keyboard":true}
+
+https://api.telegram.org/bot1292193503:AAF-mJUiswCZogTEV3_RF_LyHoA_N2OGpc0/getUpdates
+
+{"inline_keyboard":[[{"text":"work plz","callback_data":"\/plz"},{"text":"work2 plz","callback_data":"\/2plz"}]]}
+
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 743434137,
+            "message": {
+                "message_id": 1600,
+                "from": {
+                    "id": 308081725,
+                    "is_bot": false,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 308081725,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "type": "private"
+                },
+                "date": 1608072195,
+                "text": "\\xF0\\x9F\\x92\\xB0"
+            }
+        },
+        {
+            "update_id": 743434138,
+            "message": {
+                "message_id": 1601,
+                "from": {
+                    "id": 308081725,
+                    "is_bot": false,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 308081725,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "type": "private"
+                },
+                "date": 1608072302,
+                "text": "{\\xF0\\x9F\\x92\\xB0}"
+            }
+        },
+        {
+            "update_id": 743434139,
+            "message": {
+                "message_id": 1602,
+                "from": {
+                    "id": 308081725,
+                    "is_bot": false,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 308081725,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "type": "private"
+                },
+                "date": 1608073223,
+                "text": "*RIBBON*"
+            }
+        },
+        {
+            "update_id": 743434142,
+            "message": {
+                "message_id": 1608,
+                "from": {
+                    "id": 308081725,
+                    "is_bot": false,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 308081725,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "type": "private"
+                },
+                "date": 1608145305,
+                "text": "/contacts",
+                "entities": [
+                    {
+                        "offset": 0,
+                        "length": 9,
+                        "type": "bot_command"
+                    }
+                ]
+            }
+        },
+        {
+            "update_id": 743434143,
+            "callback_query": {
+                "id": "1323200934428924849",
+                "from": {
+                    "id": 308081725,
+                    "is_bot": false,
+                    "first_name": "Максим",
+                    "last_name": "(Брянск)",
+                    "username": "maksiz32",
+                    "language_code": "ru"
+                },
+                "message": {
+                    "message_id": 1609,
+                    "from": {
+                        "id": 1292193503,
+                        "is_bot": true,
+                        "first_name": "Росгосстрах Брянск",
+                        "username": "BryanskRGS_bot"
+                    },
+                    "chat": {
+                        "id": 308081725,
+                        "first_name": "Максим",
+                        "last_name": "(Брянск)",
+                        "username": "maksiz32",
+                        "type": "private"
+                    },
+                    "date": 1608148123,
+                    "text": "Hello",
+                    "reply_markup": {
+                        "inline_keyboard": [
+                            [
+                                {
+                                    "text": "📝 Заказы",
+                                    "callback_data": "/orders"
+                                },
+                                {
+                                    "text": "📊 Статистика",
+                                    "callback_data": "/stats"
+                                },
+                                {
+                                    "text": "💰 Баланс",
+                                    "callback_data": "/balance"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "💰 Баланс",
+                                    "callback_data": "/balance"
+                                },
+                                {
+                                    "text": "📋 Счета",
+                                    "callback_data": "/bills"
+                                }
+                            ],
+                            [
+                                {
+                                    "text": "✈ Заказы",
+                                    "callback_data": "/orders"
+                                }
+                            ]
+                        ]
+                    }
+                },
+                "chat_instance": "3526793124048974410",
+                "data": "/bills"
+            }
+        }
+    ]
+}
